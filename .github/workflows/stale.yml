@@ -16,6 +16,7 @@ jobs:
     permissions:
       issues: write
       pull-requests: write
+      contents: write # only for delete-branch option
 
     steps:
     - uses: actions/stale@v5
